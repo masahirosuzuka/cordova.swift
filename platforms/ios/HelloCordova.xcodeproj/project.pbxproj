@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1017DD9919E04197000D6423 /* CordovaSwiftLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1017DD9619E04168000D6423 /* CordovaSwiftLib.framework */; };
+		1017DDB519E050C1000D6423 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		106355F719DF1F9900234C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106355F619DF1F9900234C95 /* AppDelegate.swift */; };
 		106355F919DF1FB000234C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106355F819DF1FB000234C95 /* ViewController.swift */; };
 		106355FB19DF1FB800234C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106355FA19DF1FB800234C95 /* Main.storyboard */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
 		3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
 		3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
@@ -41,6 +42,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1017DD9519E04168000D6423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1017DD9019E04167000D6423 /* CordovaSwiftLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1017DD7719E04167000D6423;
+			remoteInfo = CordovaSwiftLib;
+		};
+		1017DD9719E04168000D6423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1017DD9019E04167000D6423 /* CordovaSwiftLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1017DD8219E04167000D6423;
+			remoteInfo = CordovaSwiftLibTests;
+		};
+		1017DDB619E051D7000D6423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		1017DDB819E051DC000D6423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1017DD9019E04167000D6423 /* CordovaSwiftLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1017DD7619E04167000D6423;
+			remoteInfo = CordovaSwiftLib;
+		};
 		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
@@ -48,16 +77,10 @@
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
-		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = CordovaLib;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1017DD9019E04167000D6423 /* CordovaSwiftLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaSwiftLib.xcodeproj; path = CordovaSwiftLib/CordovaSwiftLib.xcodeproj; sourceTree = "<group>"; };
 		106355F619DF1F9900234C95 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		106355F819DF1FB000234C95 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		106355FA19DF1FB800234C95 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -106,8 +129,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1017DDB519E050C1000D6423 /* libCordova.a in Frameworks */,
+				1017DD9919E04197000D6423 /* CordovaSwiftLib.framework in Frameworks */,
 				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
-				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
@@ -128,6 +152,15 @@
 			name = Classes;
 			path = HelloCordova/Classes;
 			sourceTree = SOURCE_ROOT;
+		};
+		1017DD9119E04167000D6423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1017DD9619E04168000D6423 /* CordovaSwiftLib.framework */,
+				1017DD9819E04168000D6423 /* CordovaSwiftLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
@@ -160,13 +193,14 @@
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF21871DA7A0020F90C /* merges */,
 				EB87FDF11871DA420020F90C /* Staging */,
-				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				307C750510C5A3420062BCA9 /* Plugins */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				1017DD9019E04167000D6423 /* CordovaSwiftLib.xcodeproj */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -296,7 +330,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				301BF551109A68C00062928A /* PBXTargetDependency */,
+				1017DDB919E051DC000D6423 /* PBXTargetDependency */,
+				1017DDB719E051D7000D6423 /* PBXTargetDependency */,
 			);
 			name = HelloCordova;
 			productName = HelloCordova;
@@ -332,6 +367,10 @@
 					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
 					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
 				},
+				{
+					ProductGroup = 1017DD9119E04167000D6423 /* Products */;
+					ProjectRef = 1017DD9019E04167000D6423 /* CordovaSwiftLib.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -341,6 +380,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		1017DD9619E04168000D6423 /* CordovaSwiftLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CordovaSwiftLib.framework;
+			remoteRef = 1017DD9519E04168000D6423 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1017DD9819E04168000D6423 /* CordovaSwiftLibTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CordovaSwiftLibTests.xctest;
+			remoteRef = 1017DD9719E04168000D6423 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		301BF535109A57CC0062928A /* libCordova.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -415,10 +468,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+		1017DDB719E051D7000D6423 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CordovaLib;
-			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+			targetProxy = 1017DDB619E051D7000D6423 /* PBXContainerItemProxy */;
+		};
+		1017DDB919E051DC000D6423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaSwiftLib;
+			targetProxy = 1017DDB819E051DC000D6423 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
